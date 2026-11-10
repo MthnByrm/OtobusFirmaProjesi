@@ -1,0 +1,1233 @@
+{
+    "surum": 1,
+    "kullanicilar": [
+        {
+            "id": 1,
+            "ad": "Demo Yönetici",
+            "eposta": "admin@otobusbilet.test",
+            "parola": "$2y$12$HuU01OjgrkFdjdllbeYFx.XIVr6ajLZOlqy5OIQV9jw2kphse.EqG",
+            "rol": "yonetici"
+        },
+        {
+            "id": 2,
+            "ad": "Demo Yolcu",
+            "eposta": "yolcu@otobusbilet.test",
+            "parola": "$2y$12$R16afsntmi88UKNlERA/G.E/1chhd5Lz66zColoeekPQICKiKnseO",
+            "rol": "yolcu"
+        }
+    ],
+    "guzergahlar": [
+        {
+            "id": 1,
+            "ad": "İstanbul – Sivas",
+            "duraklar": [
+                {
+                    "sehir": "İstanbul",
+                    "dakika": 0,
+                    "ucret": 0
+                },
+                {
+                    "sehir": "Bolu",
+                    "dakika": 230,
+                    "ucret": 48000
+                },
+                {
+                    "sehir": "Ankara",
+                    "dakika": 340,
+                    "ucret": 69000
+                },
+                {
+                    "sehir": "Yozgat",
+                    "dakika": 475,
+                    "ucret": 87000
+                },
+                {
+                    "sehir": "Sivas",
+                    "dakika": 615,
+                    "ucret": 109000
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "ad": "Ankara – Trabzon",
+            "duraklar": [
+                {
+                    "sehir": "Ankara",
+                    "dakika": 0,
+                    "ucret": 0
+                },
+                {
+                    "sehir": "Yozgat",
+                    "dakika": 150,
+                    "ucret": 30000
+                },
+                {
+                    "sehir": "Sivas",
+                    "dakika": 300,
+                    "ucret": 60000
+                },
+                {
+                    "sehir": "Gümüşhane",
+                    "dakika": 555,
+                    "ucret": 96000
+                },
+                {
+                    "sehir": "Trabzon",
+                    "dakika": 650,
+                    "ucret": 112000
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "ad": "Hatay – Ankara",
+            "duraklar": [
+                {
+                    "sehir": "Hatay",
+                    "dakika": 0,
+                    "ucret": 0
+                },
+                {
+                    "sehir": "Adana",
+                    "dakika": 180,
+                    "ucret": 37000
+                },
+                {
+                    "sehir": "Aksaray",
+                    "dakika": 410,
+                    "ucret": 72000
+                },
+                {
+                    "sehir": "Ankara",
+                    "dakika": 590,
+                    "ucret": 102000
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "ad": "İzmir – Eskişehir",
+            "duraklar": [
+                {
+                    "sehir": "İzmir",
+                    "dakika": 0,
+                    "ucret": 0
+                },
+                {
+                    "sehir": "Manisa",
+                    "dakika": 55,
+                    "ucret": 13000
+                },
+                {
+                    "sehir": "Uşak",
+                    "dakika": 190,
+                    "ucret": 42000
+                },
+                {
+                    "sehir": "Kütahya",
+                    "dakika": 305,
+                    "ucret": 61000
+                },
+                {
+                    "sehir": "Eskişehir",
+                    "dakika": 370,
+                    "ucret": 76000
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "ad": "Sivas – İstanbul",
+            "duraklar": [
+                {
+                    "sehir": "Sivas",
+                    "dakika": 0,
+                    "ucret": 0
+                },
+                {
+                    "sehir": "Yozgat",
+                    "dakika": 140,
+                    "ucret": 22000
+                },
+                {
+                    "sehir": "Ankara",
+                    "dakika": 275,
+                    "ucret": 42000
+                },
+                {
+                    "sehir": "Bolu",
+                    "dakika": 390,
+                    "ucret": 68000
+                },
+                {
+                    "sehir": "İstanbul",
+                    "dakika": 620,
+                    "ucret": 108000
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "ad": "Trabzon – Erzurum",
+            "duraklar": [
+                {
+                    "sehir": "Trabzon",
+                    "dakika": 0,
+                    "ucret": 0
+                },
+                {
+                    "sehir": "Gümüşhane",
+                    "dakika": 95,
+                    "ucret": 22000
+                },
+                {
+                    "sehir": "Bayburt",
+                    "dakika": 170,
+                    "ucret": 38000
+                },
+                {
+                    "sehir": "Erzurum",
+                    "dakika": 290,
+                    "ucret": 59000
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "ad": "Ankara – Hatay",
+            "duraklar": [
+                {
+                    "sehir": "Ankara",
+                    "dakika": 0,
+                    "ucret": 0
+                },
+                {
+                    "sehir": "Aksaray",
+                    "dakika": 180,
+                    "ucret": 30000
+                },
+                {
+                    "sehir": "Adana",
+                    "dakika": 410,
+                    "ucret": 65000
+                },
+                {
+                    "sehir": "Hatay",
+                    "dakika": 590,
+                    "ucret": 102000
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "ad": "Ankara – İstanbul",
+            "duraklar": [
+                {
+                    "sehir": "Ankara",
+                    "dakika": 0,
+                    "ucret": 0
+                },
+                {
+                    "sehir": "Bolu",
+                    "dakika": 120,
+                    "ucret": 28000
+                },
+                {
+                    "sehir": "İstanbul",
+                    "dakika": 350,
+                    "ucret": 70000
+                }
+            ]
+        }
+    ],
+    "otobusler": [
+        {
+            "id": 1,
+            "plaka": "34 OB 101",
+            "duzen": "2+1",
+            "sira": 10
+        },
+        {
+            "id": 2,
+            "plaka": "06 OB 102",
+            "duzen": "2+2",
+            "sira": 11
+        },
+        {
+            "id": 3,
+            "plaka": "31 OB 103",
+            "duzen": "2+1",
+            "sira": 11
+        },
+        {
+            "id": 4,
+            "plaka": "35 OB 104",
+            "duzen": "2+2",
+            "sira": 12
+        },
+        {
+            "id": 5,
+            "plaka": "58 OB 105",
+            "duzen": "2+1",
+            "sira": 10
+        },
+        {
+            "id": 6,
+            "plaka": "61 OB 106",
+            "duzen": "2+2",
+            "sira": 10
+        },
+        {
+            "id": 7,
+            "plaka": "06 OB 107",
+            "duzen": "2+1",
+            "sira": 12
+        },
+        {
+            "id": 8,
+            "plaka": "06 OB 108",
+            "duzen": "2+2",
+            "sira": 12
+        }
+    ],
+    "seferler": [
+        {
+            "id": 1,
+            "guzergah_id": 1,
+            "otobus_id": 1,
+            "gun": 1,
+            "saat": "08:30"
+        },
+        {
+            "id": 2,
+            "guzergah_id": 2,
+            "otobus_id": 2,
+            "gun": 1,
+            "saat": "09:00"
+        },
+        {
+            "id": 3,
+            "guzergah_id": 3,
+            "otobus_id": 3,
+            "gun": 1,
+            "saat": "10:15"
+        },
+        {
+            "id": 4,
+            "guzergah_id": 4,
+            "otobus_id": 4,
+            "gun": 1,
+            "saat": "11:30"
+        },
+        {
+            "id": 5,
+            "guzergah_id": 5,
+            "otobus_id": 5,
+            "gun": 1,
+            "saat": "12:45"
+        },
+        {
+            "id": 6,
+            "guzergah_id": 6,
+            "otobus_id": 6,
+            "gun": 1,
+            "saat": "16:00"
+        },
+        {
+            "id": 7,
+            "guzergah_id": 7,
+            "otobus_id": 7,
+            "gun": 1,
+            "saat": "21:15"
+        },
+        {
+            "id": 8,
+            "guzergah_id": 8,
+            "otobus_id": 8,
+            "gun": 1,
+            "saat": "14:30"
+        },
+        {
+            "id": 9,
+            "guzergah_id": 1,
+            "otobus_id": 1,
+            "gun": 2,
+            "saat": "08:30"
+        },
+        {
+            "id": 10,
+            "guzergah_id": 2,
+            "otobus_id": 2,
+            "gun": 2,
+            "saat": "09:00"
+        },
+        {
+            "id": 11,
+            "guzergah_id": 3,
+            "otobus_id": 3,
+            "gun": 2,
+            "saat": "10:15"
+        },
+        {
+            "id": 12,
+            "guzergah_id": 4,
+            "otobus_id": 4,
+            "gun": 2,
+            "saat": "11:30"
+        },
+        {
+            "id": 13,
+            "guzergah_id": 5,
+            "otobus_id": 5,
+            "gun": 2,
+            "saat": "12:45"
+        },
+        {
+            "id": 14,
+            "guzergah_id": 6,
+            "otobus_id": 6,
+            "gun": 2,
+            "saat": "16:00"
+        },
+        {
+            "id": 15,
+            "guzergah_id": 7,
+            "otobus_id": 7,
+            "gun": 2,
+            "saat": "21:15"
+        },
+        {
+            "id": 16,
+            "guzergah_id": 8,
+            "otobus_id": 8,
+            "gun": 2,
+            "saat": "14:30"
+        },
+        {
+            "id": 17,
+            "guzergah_id": 1,
+            "otobus_id": 1,
+            "gun": 3,
+            "saat": "08:30"
+        },
+        {
+            "id": 18,
+            "guzergah_id": 2,
+            "otobus_id": 2,
+            "gun": 3,
+            "saat": "09:00"
+        },
+        {
+            "id": 19,
+            "guzergah_id": 3,
+            "otobus_id": 3,
+            "gun": 3,
+            "saat": "10:15"
+        },
+        {
+            "id": 20,
+            "guzergah_id": 4,
+            "otobus_id": 4,
+            "gun": 3,
+            "saat": "11:30"
+        },
+        {
+            "id": 21,
+            "guzergah_id": 5,
+            "otobus_id": 5,
+            "gun": 3,
+            "saat": "12:45"
+        },
+        {
+            "id": 22,
+            "guzergah_id": 6,
+            "otobus_id": 6,
+            "gun": 3,
+            "saat": "16:00"
+        },
+        {
+            "id": 23,
+            "guzergah_id": 7,
+            "otobus_id": 7,
+            "gun": 3,
+            "saat": "21:15"
+        },
+        {
+            "id": 24,
+            "guzergah_id": 8,
+            "otobus_id": 8,
+            "gun": 3,
+            "saat": "14:30"
+        },
+        {
+            "id": 25,
+            "guzergah_id": 1,
+            "otobus_id": 1,
+            "gun": 4,
+            "saat": "08:30"
+        },
+        {
+            "id": 26,
+            "guzergah_id": 2,
+            "otobus_id": 2,
+            "gun": 4,
+            "saat": "09:00"
+        },
+        {
+            "id": 27,
+            "guzergah_id": 3,
+            "otobus_id": 3,
+            "gun": 4,
+            "saat": "10:15"
+        },
+        {
+            "id": 28,
+            "guzergah_id": 4,
+            "otobus_id": 4,
+            "gun": 4,
+            "saat": "11:30"
+        },
+        {
+            "id": 29,
+            "guzergah_id": 5,
+            "otobus_id": 5,
+            "gun": 4,
+            "saat": "12:45"
+        },
+        {
+            "id": 30,
+            "guzergah_id": 6,
+            "otobus_id": 6,
+            "gun": 4,
+            "saat": "16:00"
+        },
+        {
+            "id": 31,
+            "guzergah_id": 7,
+            "otobus_id": 7,
+            "gun": 4,
+            "saat": "21:15"
+        },
+        {
+            "id": 32,
+            "guzergah_id": 8,
+            "otobus_id": 8,
+            "gun": 4,
+            "saat": "14:30"
+        },
+        {
+            "id": 33,
+            "guzergah_id": 1,
+            "otobus_id": 1,
+            "gun": 5,
+            "saat": "08:30"
+        },
+        {
+            "id": 34,
+            "guzergah_id": 2,
+            "otobus_id": 2,
+            "gun": 5,
+            "saat": "09:00"
+        },
+        {
+            "id": 35,
+            "guzergah_id": 3,
+            "otobus_id": 3,
+            "gun": 5,
+            "saat": "10:15"
+        },
+        {
+            "id": 36,
+            "guzergah_id": 4,
+            "otobus_id": 4,
+            "gun": 5,
+            "saat": "11:30"
+        },
+        {
+            "id": 37,
+            "guzergah_id": 5,
+            "otobus_id": 5,
+            "gun": 5,
+            "saat": "12:45"
+        },
+        {
+            "id": 38,
+            "guzergah_id": 6,
+            "otobus_id": 6,
+            "gun": 5,
+            "saat": "16:00"
+        },
+        {
+            "id": 39,
+            "guzergah_id": 7,
+            "otobus_id": 7,
+            "gun": 5,
+            "saat": "21:15"
+        },
+        {
+            "id": 40,
+            "guzergah_id": 8,
+            "otobus_id": 8,
+            "gun": 5,
+            "saat": "14:30"
+        },
+        {
+            "id": 41,
+            "guzergah_id": 1,
+            "otobus_id": 1,
+            "gun": 6,
+            "saat": "08:30"
+        },
+        {
+            "id": 42,
+            "guzergah_id": 2,
+            "otobus_id": 2,
+            "gun": 6,
+            "saat": "09:00"
+        },
+        {
+            "id": 43,
+            "guzergah_id": 3,
+            "otobus_id": 3,
+            "gun": 6,
+            "saat": "10:15"
+        },
+        {
+            "id": 44,
+            "guzergah_id": 4,
+            "otobus_id": 4,
+            "gun": 6,
+            "saat": "11:30"
+        },
+        {
+            "id": 45,
+            "guzergah_id": 5,
+            "otobus_id": 5,
+            "gun": 6,
+            "saat": "12:45"
+        },
+        {
+            "id": 46,
+            "guzergah_id": 6,
+            "otobus_id": 6,
+            "gun": 6,
+            "saat": "16:00"
+        },
+        {
+            "id": 47,
+            "guzergah_id": 7,
+            "otobus_id": 7,
+            "gun": 6,
+            "saat": "21:15"
+        },
+        {
+            "id": 48,
+            "guzergah_id": 8,
+            "otobus_id": 8,
+            "gun": 6,
+            "saat": "14:30"
+        },
+        {
+            "id": 49,
+            "guzergah_id": 1,
+            "otobus_id": 1,
+            "gun": 7,
+            "saat": "08:30"
+        },
+        {
+            "id": 50,
+            "guzergah_id": 2,
+            "otobus_id": 2,
+            "gun": 7,
+            "saat": "09:00"
+        },
+        {
+            "id": 51,
+            "guzergah_id": 3,
+            "otobus_id": 3,
+            "gun": 7,
+            "saat": "10:15"
+        },
+        {
+            "id": 52,
+            "guzergah_id": 4,
+            "otobus_id": 4,
+            "gun": 7,
+            "saat": "11:30"
+        },
+        {
+            "id": 53,
+            "guzergah_id": 5,
+            "otobus_id": 5,
+            "gun": 7,
+            "saat": "12:45"
+        },
+        {
+            "id": 54,
+            "guzergah_id": 6,
+            "otobus_id": 6,
+            "gun": 7,
+            "saat": "16:00"
+        },
+        {
+            "id": 55,
+            "guzergah_id": 7,
+            "otobus_id": 7,
+            "gun": 7,
+            "saat": "21:15"
+        },
+        {
+            "id": 56,
+            "guzergah_id": 8,
+            "otobus_id": 8,
+            "gun": 7,
+            "saat": "14:30"
+        },
+        {
+            "id": 57,
+            "guzergah_id": 1,
+            "otobus_id": 1,
+            "gun": 8,
+            "saat": "08:30"
+        },
+        {
+            "id": 58,
+            "guzergah_id": 2,
+            "otobus_id": 2,
+            "gun": 8,
+            "saat": "09:00"
+        },
+        {
+            "id": 59,
+            "guzergah_id": 3,
+            "otobus_id": 3,
+            "gun": 8,
+            "saat": "10:15"
+        },
+        {
+            "id": 60,
+            "guzergah_id": 4,
+            "otobus_id": 4,
+            "gun": 8,
+            "saat": "11:30"
+        },
+        {
+            "id": 61,
+            "guzergah_id": 5,
+            "otobus_id": 5,
+            "gun": 8,
+            "saat": "12:45"
+        },
+        {
+            "id": 62,
+            "guzergah_id": 6,
+            "otobus_id": 6,
+            "gun": 8,
+            "saat": "16:00"
+        },
+        {
+            "id": 63,
+            "guzergah_id": 7,
+            "otobus_id": 7,
+            "gun": 8,
+            "saat": "21:15"
+        },
+        {
+            "id": 64,
+            "guzergah_id": 8,
+            "otobus_id": 8,
+            "gun": 8,
+            "saat": "14:30"
+        },
+        {
+            "id": 65,
+            "guzergah_id": 1,
+            "otobus_id": 1,
+            "gun": 9,
+            "saat": "08:30"
+        },
+        {
+            "id": 66,
+            "guzergah_id": 2,
+            "otobus_id": 2,
+            "gun": 9,
+            "saat": "09:00"
+        },
+        {
+            "id": 67,
+            "guzergah_id": 3,
+            "otobus_id": 3,
+            "gun": 9,
+            "saat": "10:15"
+        },
+        {
+            "id": 68,
+            "guzergah_id": 4,
+            "otobus_id": 4,
+            "gun": 9,
+            "saat": "11:30"
+        },
+        {
+            "id": 69,
+            "guzergah_id": 5,
+            "otobus_id": 5,
+            "gun": 9,
+            "saat": "12:45"
+        },
+        {
+            "id": 70,
+            "guzergah_id": 6,
+            "otobus_id": 6,
+            "gun": 9,
+            "saat": "16:00"
+        },
+        {
+            "id": 71,
+            "guzergah_id": 7,
+            "otobus_id": 7,
+            "gun": 9,
+            "saat": "21:15"
+        },
+        {
+            "id": 72,
+            "guzergah_id": 8,
+            "otobus_id": 8,
+            "gun": 9,
+            "saat": "14:30"
+        },
+        {
+            "id": 73,
+            "guzergah_id": 1,
+            "otobus_id": 1,
+            "gun": 10,
+            "saat": "08:30"
+        },
+        {
+            "id": 74,
+            "guzergah_id": 2,
+            "otobus_id": 2,
+            "gun": 10,
+            "saat": "09:00"
+        },
+        {
+            "id": 75,
+            "guzergah_id": 3,
+            "otobus_id": 3,
+            "gun": 10,
+            "saat": "10:15"
+        },
+        {
+            "id": 76,
+            "guzergah_id": 4,
+            "otobus_id": 4,
+            "gun": 10,
+            "saat": "11:30"
+        },
+        {
+            "id": 77,
+            "guzergah_id": 5,
+            "otobus_id": 5,
+            "gun": 10,
+            "saat": "12:45"
+        },
+        {
+            "id": 78,
+            "guzergah_id": 6,
+            "otobus_id": 6,
+            "gun": 10,
+            "saat": "16:00"
+        },
+        {
+            "id": 79,
+            "guzergah_id": 7,
+            "otobus_id": 7,
+            "gun": 10,
+            "saat": "21:15"
+        },
+        {
+            "id": 80,
+            "guzergah_id": 8,
+            "otobus_id": 8,
+            "gun": 10,
+            "saat": "14:30"
+        },
+        {
+            "id": 81,
+            "guzergah_id": 1,
+            "otobus_id": 8,
+            "gun": 1,
+            "saat": "22:45"
+        },
+        {
+            "id": 82,
+            "guzergah_id": 1,
+            "otobus_id": 8,
+            "gun": 2,
+            "saat": "22:45"
+        },
+        {
+            "id": 83,
+            "guzergah_id": 1,
+            "otobus_id": 8,
+            "gun": 3,
+            "saat": "22:45"
+        },
+        {
+            "id": 84,
+            "guzergah_id": 1,
+            "otobus_id": 8,
+            "gun": 4,
+            "saat": "22:45"
+        },
+        {
+            "id": 85,
+            "guzergah_id": 1,
+            "otobus_id": 8,
+            "gun": 5,
+            "saat": "22:45"
+        },
+        {
+            "id": 86,
+            "guzergah_id": 1,
+            "otobus_id": 8,
+            "gun": 6,
+            "saat": "22:45"
+        },
+        {
+            "id": 87,
+            "guzergah_id": 1,
+            "otobus_id": 8,
+            "gun": 7,
+            "saat": "22:45"
+        },
+        {
+            "id": 88,
+            "guzergah_id": 1,
+            "otobus_id": 8,
+            "gun": 8,
+            "saat": "22:45"
+        },
+        {
+            "id": 89,
+            "guzergah_id": 1,
+            "otobus_id": 8,
+            "gun": 9,
+            "saat": "22:45"
+        },
+        {
+            "id": 90,
+            "guzergah_id": 1,
+            "otobus_id": 8,
+            "gun": 10,
+            "saat": "22:45"
+        }
+    ],
+    "yolcular": [
+        {
+            "id": 1,
+            "ad": "Demo Deniz",
+            "tc_ozeti": "$2y$12$PzBRdr7.eEu4lO3JbF6x1uawMeM0NPdZoyOt7UrXTTXVcLBQvvY4O",
+            "tc_son": "50",
+            "cinsiyet": "K"
+        },
+        {
+            "id": 2,
+            "ad": "Demo Arda",
+            "tc_ozeti": "$2y$12$3KhvCRc2Bl3WQboz5SfDteGtvcs84YEiBN70peXrXj9m.lYVczmam",
+            "tc_son": "60",
+            "cinsiyet": "E"
+        },
+        {
+            "id": 3,
+            "ad": "Demo Bora",
+            "tc_ozeti": "$2y$12$opolpwVMsH2XE8GQsSnxEe17mz4Bg6O6EO6/Ykm4s4CRC.PB0ejh6",
+            "tc_son": "70",
+            "cinsiyet": "E"
+        },
+        {
+            "id": 4,
+            "ad": "Demo Ece",
+            "tc_ozeti": "$2y$12$eaL7wkMVKob.zKjVJs9ls.EcvdBARZ/WZTW36SvVSuAfm2Og8jTPu",
+            "tc_son": "80",
+            "cinsiyet": "K"
+        },
+        {
+            "id": 5,
+            "ad": "Demo Ali",
+            "tc_ozeti": "$2y$12$HhDwnug3mSKjWhASFvnjKOcktpkXsKK60EoIZNlEFOpherkfQ2jii",
+            "tc_son": "90",
+            "cinsiyet": "E"
+        },
+        {
+            "id": 6,
+            "ad": "Demo Can",
+            "tc_ozeti": "$2y$12$y91hqlGWgM.PUfp3MKvigeXA/4KzWWTo.f7SA7HWDwoUc1941veua",
+            "tc_son": "00",
+            "cinsiyet": "E"
+        },
+        {
+            "id": 7,
+            "ad": "Demo Ekin",
+            "tc_ozeti": "$2y$12$97zf5jbjv08t9rkdXJEd5umBigY6vf8H4NefxlfDWinQDmDChtJpa",
+            "tc_son": "10",
+            "cinsiyet": "K"
+        },
+        {
+            "id": 8,
+            "ad": "Demo Barış",
+            "tc_ozeti": "$2y$12$hVeUP5hF1z3dxDS2kVIR3O2MhIs.wzJR5KjoFSzulVWR9yAjqZ5/.",
+            "tc_son": "20",
+            "cinsiyet": "E"
+        },
+        {
+            "id": 9,
+            "ad": "Demo Duru",
+            "tc_ozeti": "$2y$12$Wv598XqPFuQRZUhgpCSD5.o7Wypjdgt/92PiqoxfU/tbT8VIa7da2",
+            "tc_son": "30",
+            "cinsiyet": "K"
+        },
+        {
+            "id": 10,
+            "ad": "Demo Ada",
+            "tc_ozeti": "$2y$12$ffRg8DlTIt.V.0lnlO7xlu2O/OALFuDCmgV9ZBA7LUwBRfgEpghMq",
+            "tc_son": "50",
+            "cinsiyet": "K"
+        },
+        {
+            "id": 11,
+            "ad": "Demo Yiğit",
+            "tc_ozeti": "$2y$12$sNZRL6rO/F.rvffK3onNTOKjJu8nGJj4NRh5gnAJ8gMq2KaApNyMm",
+            "tc_son": "60",
+            "cinsiyet": "E"
+        },
+        {
+            "id": 12,
+            "ad": "Demo Cem",
+            "tc_ozeti": "$2y$12$WJj7JA1Qzx7sGHfSlLZR..hrjh2M9dGdRpk0m7DF29Vao/Ga.YDQa",
+            "tc_son": "70",
+            "cinsiyet": "E"
+        }
+    ],
+    "siparisler": [
+        {
+            "id": 1,
+            "kullanici_id": 2
+        },
+        {
+            "id": 2,
+            "kullanici_id": 2
+        },
+        {
+            "id": 3,
+            "kullanici_id": 2
+        },
+        {
+            "id": 4,
+            "kullanici_id": 2
+        },
+        {
+            "id": 5,
+            "kullanici_id": 2
+        },
+        {
+            "id": 6,
+            "kullanici_id": 2
+        },
+        {
+            "id": 7,
+            "kullanici_id": 2
+        },
+        {
+            "id": 8,
+            "kullanici_id": 2
+        },
+        {
+            "id": 9,
+            "kullanici_id": 2
+        },
+        {
+            "id": 10,
+            "kullanici_id": 2
+        },
+        {
+            "id": 11,
+            "kullanici_id": 2
+        },
+        {
+            "id": 12,
+            "kullanici_id": 2
+        }
+    ],
+    "biletler": [
+        {
+            "id": 1,
+            "pnr": "DEMO01",
+            "siparis_id": 1,
+            "yolcu_id": 1,
+            "sefer_id": 1,
+            "binis": 0,
+            "inis": 2,
+            "koltuk": 1,
+            "cinsiyet": "K",
+            "ucret": 69000,
+            "durum": "aktif",
+            "iade": 0
+        },
+        {
+            "id": 2,
+            "pnr": "DEMO02",
+            "siparis_id": 2,
+            "yolcu_id": 2,
+            "sefer_id": 1,
+            "binis": 2,
+            "inis": 4,
+            "koltuk": 1,
+            "cinsiyet": "E",
+            "ucret": 40000,
+            "durum": "aktif",
+            "iade": 0
+        },
+        {
+            "id": 3,
+            "pnr": "DEMO03",
+            "siparis_id": 3,
+            "yolcu_id": 3,
+            "sefer_id": 1,
+            "binis": 0,
+            "inis": 4,
+            "koltuk": 3,
+            "cinsiyet": "E",
+            "ucret": 109000,
+            "durum": "aktif",
+            "iade": 0
+        },
+        {
+            "id": 4,
+            "pnr": "DEMO04",
+            "siparis_id": 4,
+            "yolcu_id": 4,
+            "sefer_id": 1,
+            "binis": 0,
+            "inis": 4,
+            "koltuk": 6,
+            "cinsiyet": "K",
+            "ucret": 109000,
+            "durum": "iptal",
+            "iade": 54500
+        },
+        {
+            "id": 5,
+            "pnr": "DEMO05",
+            "siparis_id": 5,
+            "yolcu_id": 5,
+            "sefer_id": 2,
+            "binis": 0,
+            "inis": 4,
+            "koltuk": 1,
+            "cinsiyet": "E",
+            "ucret": 112000,
+            "durum": "aktif",
+            "iade": 0
+        },
+        {
+            "id": 6,
+            "pnr": "DEMO06",
+            "siparis_id": 6,
+            "yolcu_id": 6,
+            "sefer_id": 2,
+            "binis": 0,
+            "inis": 3,
+            "koltuk": 2,
+            "cinsiyet": "E",
+            "ucret": 96000,
+            "durum": "aktif",
+            "iade": 0
+        },
+        {
+            "id": 7,
+            "pnr": "DEMO07",
+            "siparis_id": 7,
+            "yolcu_id": 7,
+            "sefer_id": 3,
+            "binis": 0,
+            "inis": 3,
+            "koltuk": 7,
+            "cinsiyet": "K",
+            "ucret": 102000,
+            "durum": "aktif",
+            "iade": 0
+        },
+        {
+            "id": 8,
+            "pnr": "DEMO08",
+            "siparis_id": 8,
+            "yolcu_id": 8,
+            "sefer_id": 4,
+            "binis": 0,
+            "inis": 4,
+            "koltuk": 4,
+            "cinsiyet": "E",
+            "ucret": 76000,
+            "durum": "aktif",
+            "iade": 0
+        },
+        {
+            "id": 9,
+            "pnr": "DEMO09",
+            "siparis_id": 9,
+            "yolcu_id": 9,
+            "sefer_id": 7,
+            "binis": 1,
+            "inis": 3,
+            "koltuk": 9,
+            "cinsiyet": "K",
+            "ucret": 72000,
+            "durum": "aktif",
+            "iade": 0
+        },
+        {
+            "id": 10,
+            "pnr": "DEMO10",
+            "siparis_id": 10,
+            "yolcu_id": 10,
+            "sefer_id": 9,
+            "binis": 0,
+            "inis": 4,
+            "koltuk": 10,
+            "cinsiyet": "K",
+            "ucret": 109000,
+            "durum": "aktif",
+            "iade": 0
+        },
+        {
+            "id": 11,
+            "pnr": "DEMO11",
+            "siparis_id": 11,
+            "yolcu_id": 11,
+            "sefer_id": 10,
+            "binis": 1,
+            "inis": 4,
+            "koltuk": 12,
+            "cinsiyet": "E",
+            "ucret": 82000,
+            "durum": "aktif",
+            "iade": 0
+        },
+        {
+            "id": 12,
+            "pnr": "DEMO12",
+            "siparis_id": 12,
+            "yolcu_id": 12,
+            "sefer_id": 11,
+            "binis": 0,
+            "inis": 2,
+            "koltuk": 3,
+            "cinsiyet": "E",
+            "ucret": 72000,
+            "durum": "iptal",
+            "iade": 36000
+        }
+    ],
+    "kilitler": []
+}

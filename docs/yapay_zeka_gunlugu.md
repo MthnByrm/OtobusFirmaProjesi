@@ -73,3 +73,11 @@ Bu dosya, proje sürecinde yapay zekadan alınan desteklerin kaydını tutar. Ka
 - **Kabul edilen/reddedilen kısım:** Kabul edildi.
 - **Nedeni:** Sefer fiyatına ileride zam gelse bile önceden satılmış biletin tutarının sabit kalması gerekiyor.
 - **Yapay zekânın yanıldığı / atladığı durum:** Yok.
+
+### Kayıt 9 — Aşama 2 uygulamasının geliştirilmesi
+
+- **Tarih** 10.11.2026
+- **Amaç** Gereksinim ve tasarım belgelerini PHP ile çalıştırılabilen, JSON verili bir teslim paketine dönüştürmek.
+- **İstem özeti** Sefer arama, etap bazlı koltuk kilidi, demo ödeme, PNR, iptal ve yönetim işlemlerini tamamla. Örnek verileri doldur, MySQL’e geçiş için veri erişimini ayır ve projeyi ZIP’ten çalıştırılabilir biçimde paketle.
+- **Uygulanan tasarım kararı** JSON kayıtları ortak veri deposu ve işlem yönetimi arayüzleriyle yönetildi. Bir bilet alımı sırasında sipariş, yolcu, bilet ve kilit güncellemeleri aynı JSON işleminde saklandı.
+- **Düzeltilen durum** Ödeme ekranındaki ikinci örnek kimlik numarasının kontrol basamakları doğrulama testinde hatalı çıktı. Geçerli örnekle değiştirildi.
