@@ -7,6 +7,7 @@
 | Metehan Bayram | 2407231006 |
 | Mustafa Efe Kaya | 2407231029 |
 | Osman Nuri Gönültaş | 2407231079 |
+| Mert Özdemir | 2107231018 |
 
 Uygulama, şehirlerarası sefer aramayı, koltuk ayırmayı, demo ödeme ile bilet almayı, PNR sorgusunu ve bilet iptalini destekler. Yönetim panelinden güzergâh, otobüs ve sefer eklenip düzenlenebilir. Doluluk ve gelir raporu da aynı panelde yer alır.
 
